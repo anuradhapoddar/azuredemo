@@ -8,7 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class DemoApplication {
-	
+	/**
+	 * 
+	 * @return
+	 */
 	@GetMapping("/hello")
 	public String msg()
 	{
